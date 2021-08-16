@@ -15,7 +15,7 @@ try:
 	import string
 	from colorama import Fore
 except ImportError:
-	os.system('pip2 install requests;pip2 install colorama;pkg install random;python3 fbx.py')
+	os.system('pip2 install requests;pip2 install colorama;pkg install random;python3 hfb.py')
 
 
 os.system('clear')
