@@ -1,5 +1,5 @@
 # tool by Ragnar & Mohammed
-#
+# https://github.com/Ragnarok521/RagnarCoder
 #
 import re
 from datetime import datetime
