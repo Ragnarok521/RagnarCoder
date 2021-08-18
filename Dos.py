@@ -3506,7 +3506,7 @@ def httpcall(url):
     except urllib2.HTTPError as e:
         set_flag(1)
         r1+=1
-        print '\x1b[31;1m['+str(r1)+']Ragnar DDOS ATTACKED'
+        print '\x1b[31;1m['+str(r1)+']ATTACKED'
         code = 500
     except urllib2.URLError as e:
         sys.exit()
