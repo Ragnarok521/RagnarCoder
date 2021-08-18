@@ -3478,29 +3478,25 @@ class MonitorThread(threading.Thread):
 
         if flag == 2:
             banner1()
-
-
 def chk():
     os.system('clear')
 def chk():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
-  print("\x1b[37;1m ID TO: " + id)
+  print("\x1b[37;1m ID TO: "+id)
   try:
     Ragnar = requests.get("https://github.com/Ragnarok521/idacteve.txt/blob/main/idacteve.txt").text
-    if id in Ragnar:
-       print("\033[92m YOUR ID IS ACTIVE")
-       msg = str(os.geteuid())
-       time.sleep(1)
-       pass
+    if id in Ragnar :
+      print("\033[92m YOUR ID IS ACTIVE")
+      msg = str(os.geteuid())
+      time.sleep(1)
+      pass
     else:
       print("\x1b[91m YOUR ID IS NOT ACTIVE")
       time.sleep(1)
       sys.exit()
   except:
     sys.exit()
-if  name == '_main_':
-    print("id acteva")
     em = os.getuid()
     config = ('$').join(str(em))
 
@@ -3527,3 +3523,5 @@ else:
         t.start()
 
     t = MonitorThread()
+
+
