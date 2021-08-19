@@ -3499,16 +3499,15 @@ def chk():
       msg = str(os.geteuid())
       time.sleep(1)
       pass
-    
     else:
       print("\x1b[91m YOUR ID IS NOT ACTIVE")
       time.sleep(1)
       sys.exit()
-
   except:
     sys.exit()
     em = os.getuid()
     config = ('$').join(str(em))
+clear()
 
 if __name__ == '__main__':
     chk()
