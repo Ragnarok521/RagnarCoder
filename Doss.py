@@ -12,9 +12,17 @@ import time
 
 
 def banner():
-    print("DDos Attack web")
+    print("
+########     ###     ######   ##    ##    ###    ########  
+##     ##   ## ##   ##    ##  ###   ##   ## ##   ##     ## 
+##     ##  ##   ##  ##        ####  ##  ##   ##  ##     ## 
+########  ##     ## ##   #### ## ## ## ##     ## ########  
+##   ##   ######### ##    ##  ##  #### ######### ##   ##   
+##    ##  ##     ## ##    ##  ##   ### ##     ## ##    ##  
+##     ## ##     ##  ######   ##    ## ##     ## ##     ## 
+")
 def banner1():
-    print("Dos")
+    print("--------------------Attack-------------------")
 
 url = ''
 host = ''
@@ -3491,7 +3499,7 @@ def chk():
       msg = str(os.geteuid())
       time.sleep(1)
       pass
-clear()
+      clear()
     else:
       print("\x1b[91m YOUR ID IS NOT ACTIVE")
       time.sleep(1)
