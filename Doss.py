@@ -3504,7 +3504,7 @@ def chk():
       print("\x1b[91m YOUR ID IS NOT ACTIVE")
       time.sleep(1)
       sys.exit()
-clear()
+
   except:
     sys.exit()
     em = os.getuid()
